@@ -83,7 +83,7 @@ Below is shown data structure of the following tables:USersCR_D2,UsersNI_D2,USer
 | Actividad           	| int          	| Activity.Columns sum: menciones_a_In,menciones_a_Out, menciones_de_In,rt_a_In,rt_a_Out,rt_de_In,rp_a_In, rp_a_Out,rp_de_In,rq_a_In,rq_a_Out,rq_de_In 	|
 | paisSN              	| int          	| Country                                                                                                                                              	|
 
-Below is shown data structure of the following tables:sampleUsersCR_D2,sampleUsersNI_D2,sampleUsersPA_D2  
+The tables:sampleUsersCR_D2,sampleUsersNI_D2,sampleUsersPA_D2  
 
 
 
