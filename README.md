@@ -5,7 +5,7 @@ We have saved 30 tables in two repositories: repository 1 and repository 2.
 **Repository 2** has 18 tables: https://github.com/damian-quijano/-identify_nationality_twitter2   
 Large tables have been saved in the first repository, small size tables have been saved in the second repository.  
   
-This is repository 2. Below are the names and sizes of the largest tables used in the study.It is a group of 18 tables.
+**This is repository 2**. Below are the names and sizes of the largest tables used in the study.It is a group of 18 tables.
 
 | Sequence 	| Table                	| File txt                 	| Records 	| Size kb txt 	|
 |----------	|----------------------	|--------------------------	|---------	|-------------	|
@@ -29,7 +29,7 @@ This is repository 2. Below are the names and sizes of the largest tables used i
 | 8        	| UsersPA_TP          	| UsersPA_TP.txt           	| 6392    	| 935         	|
 
 
-Sequence refers to the order in which data is generated from the above tables. This means that if the table has sequence 3 it was created from the data in the table with sequence 2.  
+**Sequence** refers to the order in which data is generated from the above tables. This means that if the table has sequence 3 it was created from the data in the table with sequence 2.  
 In this repository the tables with sequence 1,3 and 6 are stored. In repository 2 are the tables with sequences 2,4,5,7 and 8.  
 Size kb txt means that the file size is in kilobytes and text format. Size kb zip it means the same but in compressed format.  
    
@@ -51,7 +51,7 @@ Below is shown data structure of the following tables:**USersCR_D1,UsersGT_D1,Us
 | rtquotes            	| int         	| quotes                                         	|
 
 
-Below is shown data structure of the following tables:**USersCR_D2,UsersNI_D2,USersPA_D2**  
+*Below is shown data structure of the following tables*:**USersCR_D2,UsersNI_D2,USersPA_D2**  
 
 | Field               	| Type         	| Description                                                                                                                                          	|
 |---------------------	|--------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
@@ -82,7 +82,7 @@ Below is shown data structure of the following tables:**USersCR_D2,UsersNI_D2,US
 | rq_de_In            	| int          	| quotes of other users to the current user that are part of the table users                                                                           	|
 | Actividad           	| int          	| Activity.Columns sum: menciones_a_In,menciones_a_Out, menciones_de_In,rt_a_In,rt_a_Out,rt_de_In,rp_a_In, rp_a_Out,rp_de_In,rq_a_In,rq_a_Out,rq_de_In 	|
 
-The tables:**sampleUsersCR_D2,sampleUsersNI_D2,sampleUsersPA_D2**  
+*Below is shown data structure of the following tables*:**sampleUsersCR_D2,sampleUsersNI_D2,sampleUsersPA_D2**  
 | Field               	| Type         	| Description                                                                                                                                          	|
 |---------------------	|--------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | author_id           	| bigint       	| id user                                                                                                                                              	|
@@ -113,9 +113,9 @@ The tables:**sampleUsersCR_D2,sampleUsersNI_D2,sampleUsersPA_D2**
 | Actividad           	| int          	| Activity.Columns sum: menciones_a_In,menciones_a_Out, menciones_de_In,rt_a_In,rt_a_Out,rt_de_In,rp_a_In, rp_a_Out,rp_de_In,rq_a_In,rq_a_Out,rq_de_In 	|
 | paisSN              	| int          	| 1 or 0. 1 Identified the country, 0 is not the country. Human check.    
 
-
-
-Below is shown data structure of the following tables:classifiedUsersCR_D2,classifiedUsersNI_D2,classifiedUsersPA_D2,UsersCR_TP,UsersNI_TP, UsersPA_TP  
+  
+  
+*Below is shown data structure of the following tables*:**classifiedUsersCR_D2,classifiedUsersNI_D2,classifiedUsersPA_D2,UsersCR_TP,UsersNI_TP, UsersPA_TP**    
 | Field               	| Type         	| Description                                                                                                                                          	|
 |---------------------	|--------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | author_id           	| bigint       	| id user                                                                                                                                              	|
@@ -148,25 +148,5 @@ Below is shown data structure of the following tables:classifiedUsersCR_D2,class
 | prob0           	| float          	|Probability class 0 (not of the nationality)                                                                                           	|
 | prob1            	| float        	| Probability  class 1 (nationality ok)  
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
