@@ -116,4 +116,57 @@ The tables:**sampleUsersCR_D2,sampleUsersNI_D2,sampleUsersPA_D2**
 
 
 Below is shown data structure of the following tables:classifiedUsersCR_D2,classifiedUsersNI_D2,classifiedUsersPA_D2,UsersCR_TP,UsersNI_TP, UsersPA_TP  
+| Field               	| Type         	| Description                                                                                                                                          	|
+|---------------------	|--------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| author_id           	| bigint       	| id user                                                                                                                                              	|
+| username            	| varchar(MAX) 	|                                                                                                                                                      	|
+| created_at          	| varchar(50)  	|                                                                                                                                                      	|
+| verified            	| varchar(50)  	| If the account is verified by Twitter                                                                                                                	|
+| followers           	| int          	|                                                                                                                                                      	|
+| following           	| int          	|                                                                                                                                                      	|
+| tweet_count         	| int          	|                                                                                                                                                      	|
+| listed_count        	| int          	|                                                                                                                                                      	|
+| cant_tweets_muestra 	| int          	| Number of messages downloaded from the account                                                                                                       	|
+| rt                  	| int          	| retweet                                                                                                                                              	|
+| vreplicas           	| int          	| replies                                                                                                                                              	|
+| likes               	| int          	| likes                                                                                                                                                	|
+| rtquotes            	| int          	| quotes                                                                                                                                               	|
+| menciones_a_In      	| int          	| mentions of the user to other   users      that are part of the users of the table                                                                   	|
+| menciones_a_Out     	| int          	| mentions to other users who are   not part      of the table users                                                                                   	|
+| menciones_de_In     	| int          	| mentions of other users to the   current user      that are part of the table users                                                                  	|
+| rt_a_In             	| int          	| retweets of the user to other   users      that are part of the users of the table                                                                   	|
+| rt_a_Out            	| int          	| retweets to other users who are   not part      of the table users                                                                                   	|
+| rt_de_In            	| int          	| retweets of other users to the   current user that      are part of the table users                                                                  	|
+| rp_a_In             	| int          	| replies of the user to other users that are part of the users of the table                                                                           	|
+| rp_a_Out            	| int          	| replies to other users who are not part of the table users                                                                                           	|
+| rp_de_In            	| int          	| replies of other users to the current user that are part of the table users                                                                          	|
+| rq_a_In             	| int          	| quotes of the user to other users that are part of the users of the table                                                                            	|
+| rq_a_Out            	| int          	| quotes to other users who are not part of the table users                                                                                            	|
+| rq_de_In            	| int          	| quotes of other users to the current user that are part of the table users                                                                           	|
+| Actividad           	| int          	| Activity.Columns sum: menciones_a_In,menciones_a_Out, menciones_de_In,rt_a_In,rt_a_Out,rt_de_In,rp_a_In, rp_a_Out,rp_de_In,rq_a_In,rq_a_Out,rq_de_In 	|
+|pred             	| int          	| 1 or 0,   Model prediction.                                                                         	|
+| prob0           	| float          	|Probability class 0 (not of the nationality)                                                                                           	|
+| prob1            	| float        	| Probability  class 1 (nationality ok)  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
