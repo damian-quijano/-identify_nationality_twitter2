@@ -33,7 +33,7 @@ Large tables have been saved in the first repository, small size tables have bee
 In this repository the tables with sequence 1,3 and 6 are stored. In repository 2 are the tables with sequences 2,4,5,7 and 8.  
 Size kb txt means that the file size is in kilobytes and text format. Size kb zip it means the same but in compressed format.  
    
-Below is shown data structure of the following tables:**USersCR_D1,UsersGT_D1,UsersHN_D1,UsersNI_D1,USersPA_D1,UsersSV_D1**   
+*Below is shown data structure of the following tables*:**USersCR_D1,UsersGT_D1,UsersHN_D1,UsersNI_D1,USersPA_D1,UsersSV_D1**   
 | Field               	| Type        	| Description                                    	|
 |---------------------	|-------------	|------------------------------------------------	|
 | id_user             	| bigint      	| id user                                        	|
