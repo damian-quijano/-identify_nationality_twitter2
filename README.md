@@ -1,4 +1,4 @@
-*Repository of data and script used by the article*: **Methodological proposal to identify the nationality of Twitter users through Random-Forests**
+## Repository of data and script used by the article: **Methodological proposal to identify the nationality of Twitter users through Random-Forests**
 
 We have saved 30 tables in two repositories: repository 1 and repository 2.   
 **Repository 1** has 12 tables:  https://github.com/damian-quijano/identify_nationality_twitter  
