@@ -53,7 +53,12 @@ Size kb txt means that the file size is in kilobytes and text format.
 | likes               	| int         	| likes                                          	|
 | rtquotes            	| int         	| quotes                                         	|
 
-
+*The scripts mentioned in the article are stored in the Code folder:*  
+**applyModel.py**      
+**randomTreeAnalysis.py**     
+**sampling.py**    
+Each script is heavily documented within.  
+    
 *Below is shown data structure of the following tables*: **USersCR_D2,UsersNI_D2,USersPA_D2**  
 
 | Field               	| Type         	| Description                                                                                                                                          	|
