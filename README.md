@@ -6,7 +6,7 @@ http://dx.doi.org/10.5281/zenodo.7254532
 **Repository 2** has 18 tables: https://github.com/damian-quijano/-identify_nationality_twitter2   
 http://dx.doi.org/10.5281/zenodo.7254534     
    
-Large tables have been saved in the first repository, small size tables have been saved in the second repository. 
+Large tables have been saved in the first repository, small size tables and code have been saved in the second repository. 
   
 **This is repository 2**. Below are the names and sizes of the largest tables used in the study.It is a group of 18 tables.
 
