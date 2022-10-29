@@ -1,9 +1,12 @@
 ## Repository of data and script used by the article: **Methodological proposal to identify the nationality of Twitter users through Random-Forests**
 
 We have saved 30 tables in two repositories: repository 1 and repository 2.   
-**Repository 1** has 12 tables:  https://github.com/damian-quijano/identify_nationality_twitter  
+**Repository 1** has 12 tables:  https://github.com/damian-quijano/identify_nationality_twitter    
+http://dx.doi.org/10.5281/zenodo.7254532     
 **Repository 2** has 18 tables: https://github.com/damian-quijano/-identify_nationality_twitter2   
-Large tables have been saved in the first repository, small size tables have been saved in the second repository.  
+http://dx.doi.org/10.5281/zenodo.7254534     
+   
+Large tables have been saved in the first repository, small size tables have been saved in the second repository. 
   
 **This is repository 2**. Below are the names and sizes of the largest tables used in the study.It is a group of 18 tables.
 
@@ -30,10 +33,10 @@ Large tables have been saved in the first repository, small size tables have bee
 
 
 **Sequence** refers to the order in which data is generated from the above tables. This means that if the table has sequence 3 it was created from the data in the table with sequence 2.  
-In this repository the tables with sequence 1,3 and 6 are stored. In repository 2 are the tables with sequences 2,4,5,7 and 8.  
-Size kb txt means that the file size is in kilobytes and text format. Size kb zip it means the same but in compressed format.  
+In this repository the tables with sequence 2,4,5,7 and 8 are stored. In repository 1 are the tables with sequences 1,3 and 6. 
+Size kb txt means that the file size is in kilobytes and text format.  
    
-*Below is shown data structure of the following tables*:**USersCR_D1,UsersGT_D1,UsersHN_D1,UsersNI_D1,USersPA_D1,UsersSV_D1**   
+*Below is shown data structure of the following tables*: **USersCR_D1,UsersGT_D1,UsersHN_D1,UsersNI_D1,USersPA_D1,UsersSV_D1**   
 | Field               	| Type        	| Description                                    	|
 |---------------------	|-------------	|------------------------------------------------	|
 | id_user             	| bigint      	| id user                                        	|
@@ -51,7 +54,7 @@ Size kb txt means that the file size is in kilobytes and text format. Size kb zi
 | rtquotes            	| int         	| quotes                                         	|
 
 
-*Below is shown data structure of the following tables*:**USersCR_D2,UsersNI_D2,USersPA_D2**  
+*Below is shown data structure of the following tables*: **USersCR_D2,UsersNI_D2,USersPA_D2**  
 
 | Field               	| Type         	| Description                                                                                                                                          	|
 |---------------------	|--------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
@@ -82,7 +85,7 @@ Size kb txt means that the file size is in kilobytes and text format. Size kb zi
 | rq_de_In            	| int          	| quotes of other users to the current user that are part of the table users                                                                           	|
 | Actividad           	| int          	| Activity.Columns sum: menciones_a_In,menciones_a_Out, menciones_de_In,rt_a_In,rt_a_Out,rt_de_In,rp_a_In, rp_a_Out,rp_de_In,rq_a_In,rq_a_Out,rq_de_In 	|
 
-*Below is shown data structure of the following tables*:**sampleUsersCR_D2,sampleUsersNI_D2,sampleUsersPA_D2**  
+*Below is shown data structure of the following tables*: **sampleUsersCR_D2,sampleUsersNI_D2,sampleUsersPA_D2**  
 | Field               	| Type         	| Description                                                                                                                                          	|
 |---------------------	|--------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | author_id           	| bigint       	| id user                                                                                                                                              	|
@@ -115,7 +118,7 @@ Size kb txt means that the file size is in kilobytes and text format. Size kb zi
 
   
   
-*Below is shown data structure of the following tables*:**classifiedUsersCR_D2,classifiedUsersNI_D2,classifiedUsersPA_D2,UsersCR_TP,UsersNI_TP, UsersPA_TP**    
+*Below is shown data structure of the following tables*: **classifiedUsersCR_D2,classifiedUsersNI_D2,classifiedUsersPA_D2,UsersCR_TP,UsersNI_TP, UsersPA_TP**    
 | Field               	| Type         	| Description                                                                                                                                          	|
 |---------------------	|--------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | author_id           	| bigint       	| id user                                                                                                                                              	|
