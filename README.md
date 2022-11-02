@@ -124,7 +124,9 @@ Each script is heavily documented within.
 
   
   
-*Below is shown data structure of the following tables*: **classifiedUsersCR_D2,classifiedUsersNI_D2,classifiedUsersPA_D2,UsersCR_class1,UsersNI_class1, UsersPA_class1**    
+*Below is shown data structure of the following tables*: **classifiedUsersCR_D2,classifiedUsersNI_D2,classifiedUsersPA_D2,UsersCR_class1,UsersNI_class1, UsersPA_class1**     
+The first three tables contain the users automatically tagged class1 and class 0. The other three tables have the users that were tagged class 1 only.  
+  
 | Field               	| Type         	| Description                                                                                                                                          	|
 |---------------------	|--------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | author_id           	| bigint       	| id user                                                                                                                                              	|
