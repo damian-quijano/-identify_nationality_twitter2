@@ -27,9 +27,9 @@ Large tables have been saved in the first repository, small size tables and code
 | 7        	| classifiedUsersCR_D2 	| classifiedUsersCR_D2.txt 	| 9843    	| 1445        	|
 | 7        	| classifiedUsersNI_D2 	| classifiedUsersNI_D2.txt 	| 5223    	| 803         	|
 | 7        	| classifiedUsersPA_D2 	| classifiedUsersPA_D2.txt 	| 14789   	| 2205        	|
-| 8        	| UsersCR_TP           	| UsersCR_TP.txt           	| 3886    	| 543         	|
-| 8        	| UsersNI_TP           	| UsersNI_TP.txt           	| 1343    	| 204         	|
-| 8        	| UsersPA_TP          	| UsersPA_TP.txt           	| 6392    	| 935         	|
+| 8        	| UsersCR_class1           	| UsersCR_TP.txt           	| 3886    	| 543         	|
+| 8        	| UsersNI_class1           	| UsersNI_TP.txt           	| 1343    	| 204         	|
+| 8        	| UsersPA_class1          	| UsersPA_TP.txt           	| 6392    	| 935         	|
 
 
 **Sequence** refers to the order in which data is generated from the above tables. This means that if the table has sequence 3 it was created from the data in the table with sequence 2.  
@@ -124,7 +124,7 @@ Each script is heavily documented within.
 
   
   
-*Below is shown data structure of the following tables*: **classifiedUsersCR_D2,classifiedUsersNI_D2,classifiedUsersPA_D2,UsersCR_TP,UsersNI_TP, UsersPA_TP**    
+*Below is shown data structure of the following tables*: **classifiedUsersCR_D2,classifiedUsersNI_D2,classifiedUsersPA_D2,UsersCR_class1,UsersNI_class1, UsersPA_class1**    
 | Field               	| Type         	| Description                                                                                                                                          	|
 |---------------------	|--------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | author_id           	| bigint       	| id user                                                                                                                                              	|
